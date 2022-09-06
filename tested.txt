@@ -1,0 +1,11 @@
+th the --login option or when invoked as sh, Bash reads the /etc/profile instructions. These usually set the shell variables PATH, USER, MAIL, HOSTNAME and HISTSIZE.
+
+On some systems, the umask value is configured in /etc/profile; on other systems this file holds pointers to other configuration files such as:
+
+/etc/inputrc, the system-wide Readline initialization file where you can configure the command line bell-style.
+
+the /etc/profile.d directory, which contains files configuring system-wide behavior of specific programs.
+
+All settings that you want to apply to all your users' environments should be in this file. It might look like this:
+
+
